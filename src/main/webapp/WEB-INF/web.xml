@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+
+    <!--    <servlet>-->
+<!--    <servlet-name>SelectAllServlet</servlet-name>-->
+<!--    <servlet-class>com.oyy.web.SelectAllServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    &lt;!&ndash;    <servlet-mapping>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <servlet-name>SelectAllServlet</servlet-name>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <url-pattern>/selectAllServlet</url-pattern>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </servlet-mapping>&ndash;&gt;-->
+<!--  可以自动设置默认访问界面，如不设置默认访问index.html  <welcome-file-list>-->
+<!--        <welcome-file>a.html</welcome-file>-->
+<!--    </welcome-file-list>-->
+
+        <welcome-file-list>
+            <welcome-file>login.jsp</welcome-file>
+        </welcome-file-list>
+
+
+
+ 
+</web-app>
